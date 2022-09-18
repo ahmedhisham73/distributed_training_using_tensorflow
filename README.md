@@ -110,3 +110,20 @@ os.environ['TF_CONFIG'] = json.dumps(tf_config)
 
 
 
+
+
+
+
+Some notes i gained from experience and practice 
+
+1-Hardware is better to have same identical features/synchronous clocks 
+from experience 
+-if you want train a model on 2 Gpus on single machine , then its better to have the same 2 GPU
+ie GTX1080 with GTX1080 
+
+
+-on different devices , the devices must be on the same network ,better to have same clock speed (very close processor frequencies, same GPU specs) to avoid idle mood or lagging in the shake hand stage 
+
+
+-use check points 
+
